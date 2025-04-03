@@ -1,0 +1,95 @@
+<svg version="1.1"
+     viewBox="0 0 350 18"
+     width="100%" height="100%"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes words {
+        100% {content: "";}
+    }
+
+    @keyframes changeLetter {
+        0.00% {content: "";}
+        2.22% {content: "N";}
+        4.44% {content: "No";}
+        6.67% {content: "No ";}
+        8.89% {content: "No e";}
+        11.11% {content: "No es";}
+        13.33% {content: "No esc";}
+        15.56% {content: "No esca";}
+        17.78% {content: "No escape";}
+        20.00% {content: "No escape ";}
+        22.22% {content: "No escape b";}
+        24.44% {content: "No escape bu";}
+        26.67% {content: "No escape but";}
+        28.89% {content: "No escape but ";}
+        31.11% {content: "No escape but g";}
+        33.33% {content: "No escape but gr";}
+        35.56% {content: "No escape but gra";}
+        37.78% {content: "No escape but grad";}
+        40.00% {content: "No escape but gradu";}
+        42.22% {content: "No escape but gradua";}
+        44.44% {content: "No escape but graduat";}
+        46.67% {content: "No escape but graduate";}
+        48.89% {content: "No escape but graduate!";}
+        51.11% {content: "No escape but graduate";}
+        53.33% {content: "No escape but graduat";}
+        55.56% {content: "No escape but gradua";}
+        57.78% {content: "No escape but gradu";}
+        60.00% {content: "No escape but grad";}
+        62.22% {content: "No escape but gra";}
+        64.44% {content: "No escape but gr";}
+        66.67% {content: "No escape but g";}
+        68.89% {content: "No escape but ";}
+        71.11% {content: "No escape but";}
+        73.33% {content: "No escape bu";}
+        75.56% {content: "No escape b";}
+        77.78% {content: "No escape ";}
+        80.00% {content: "No escape";}
+        82.22% {content: "No escap";}
+        84.44% {content: "No esca";}
+        86.67% {content: "No esc";}
+        88.89% {content: "No es";}
+        91.11% {content: "No e";}
+        93.33% {content: "No ";}      
+        95.56% {content: "No";}
+        97.78% {content: "N";}
+        100% {content: "";}
+    }
+        
+    @keyframes cursor {
+        to { visibility: visible; }
+    }
+    @-webkit-keyframes cursor {
+        to { visibility: visible; }
+    }
+        
+    .words::before {
+        animation: words 1s linear 0s 1 normal forwards;
+        content: "";
+    }
+    .letter-changer::before {
+        animation: changeLetter 7s linear 1s infinite normal forwards;
+        content: "";
+    }
+    .letter-changer::after {
+        content: "​";
+        position: relative;
+        display: inline-block;
+        padding-right: 2px;
+        border-right: 2px solid currentColor;
+        white-space: nowrap;
+        animation: cursor 0.5s steps(5, start) infinite;
+    }
+    span {
+        background-color: white;
+        color: black;
+        font-family: "Lucida Grande";
+        font-size: 15px;
+    }
+</style>
+ 
+  <foreignObject xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+<span xmlns="http://www.w3.org/1999/xhtml" class="words"></span><span xmlns="http://www.w3.org/1999/xhtml" class="letter-changer"></span>
+  </foreignObject>
+  
+</svg>
