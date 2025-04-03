@@ -4,7 +4,7 @@
      xmlns="http://www.w3.org/2000/svg">
   <style>
 
-/ I stole the code [only tiny mods afterward] from mystyrust's https://archiveofourown.org/works/40939650 https://raw.githubusercontent.com/mystyrust/quaranteen/master/SVG/summary.svg /
+/* I stole the code [only tiny mods afterward] from mystyrust's https://archiveofourown.org/works/40939650 https://raw.githubusercontent.com/mystyrust/quaranteen/master/SVG/summary.svg */
        
     @keyframes changeLetter {
         0.00% {content: "";}
