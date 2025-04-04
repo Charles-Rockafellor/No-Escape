@@ -80,6 +80,8 @@
         animation: cursor 0.5s steps(5, start) infinite;
     }
     span {
+        background-color: inherit;
+        color: inherit;
         font-family: "Lucida Grande";
         font-size: 15px;
     }
