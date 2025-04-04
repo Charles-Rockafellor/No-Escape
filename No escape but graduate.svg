@@ -73,7 +73,7 @@
     .letter-changer::after {
         content: "​";
         position: relative;
-        display: inline-block;
+        display: inline;
         padding-right: 2px;
         border-right: 2px solid currentColor;
         white-space: nowrap;
