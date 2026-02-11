@@ -1,4 +1,4 @@
-# Foolproof images, .mp3s, etc.
+# Typing effect.
 
 Used in AO3 work "Inside, Outside, Upside-dowm", at https://archiveofourown.org/works/64089790/chapters/164435695; good for keeping the typing present with creator's style turned off, though CSS is probably a better choice for most situations.
 
